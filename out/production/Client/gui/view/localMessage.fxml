@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.VBox?>
+<fx:root spacing="4.0" type="VBox" xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <Label fx:id="localMessageLabel" alignment="TOP_LEFT" text="WEWEW" wrapText="true">
+            <font>
+                <Font name="Arial Bold" size="14.0"/>
+            </font>
+        </Label>
+    </children>
+    <padding>
+        <Insets bottom="5.0" left="15.0" right="15.0" top="5.0"/>
+    </padding>
+</fx:root>
